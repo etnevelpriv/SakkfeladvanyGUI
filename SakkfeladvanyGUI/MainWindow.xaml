@@ -11,8 +11,8 @@
         <ComboBox x:Name="rowCB" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="180,10,0,0"/>
         <ComboBox x:Name="colCB" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,10,0,0"/>
 
-        <Button x:Name="createButton" Content="Tábla létrehozása" Width="150" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,0,0" />
+        <Button x:Name="createButton" Content="Tábla létrehozása" Width="150" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,0,0" Click="createButton_Click" />
 
-        <TextBlock Text="Minden sorban helyezzen el egy királynőt!" Margin="10,90,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <TextBlock x:Name="uzenetTB" Text="Minden sorban helyezzen el egy királynőt!" Margin="10,90,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
     </Grid>
 </Window>
