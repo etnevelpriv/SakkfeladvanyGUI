@@ -19,6 +19,13 @@ namespace SakkfeladvanyGUI
         public MainWindow()
         {
             InitializeComponent();
+            for (int i = 3; i <= 10; i++)
+            {
+                rowCB.Items.Add(i);
+                colCB.Items.Add(i);
+            }
+            rowCB.SelectedItem = 8;
+            colCB.SelectedItem = 8;
         }
     }
 }

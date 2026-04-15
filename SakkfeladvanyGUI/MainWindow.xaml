@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SakkfeladvanyGUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Sakkfeladvány" Height="450" Width="800">
+    <Grid Margin="10">
+        <TextBlock Text="Sakktábla mérete [sor x oszlop]: " HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" />
+        <ComboBox x:Name="rowCB" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="180,10,0,0"/>
+        <ComboBox x:Name="colCB" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,10,0,0"/>
 
+        <Button x:Name="createButton" Content="Tábla létrehozása" Width="150" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,0,0" />
+
+        <TextBlock Text="Minden sorban helyezzen el egy királynőt!" Margin="10,90,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
     </Grid>
 </Window>
