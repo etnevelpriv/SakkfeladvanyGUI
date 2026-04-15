@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SakkfeladvanyGUI", "SakkfeladvanyGUI\SakkfeladvanyGUI.csproj", "{A74B1E6B-2E10-460E-A55C-B6E8ED442969}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A74B1E6B-2E10-460E-A55C-B6E8ED442969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A74B1E6B-2E10-460E-A55C-B6E8ED442969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A74B1E6B-2E10-460E-A55C-B6E8ED442969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A74B1E6B-2E10-460E-A55C-B6E8ED442969}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F9AE318-7254-4E6A-8F6C-859261F1A3F7}
+	EndGlobalSection
+EndGlobal
